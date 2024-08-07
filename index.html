@@ -37,6 +37,21 @@
         .recent-posts ul li a:hover {
             text-decoration: underline;
         }
+
+        .blog-post {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+
+        .blog-post h2 {
+            font-size: 1.75rem;
+        }
+
+        .blog-post .post-meta {
+            color: #555;
+            font-size: 0.9rem;
+        }
     </style>
 </head>
 <body>
@@ -68,24 +83,27 @@
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-8">
-                <article class="mb-4">
-                    <h2 class="mb-3">Understanding Phishing Attacks</h2>
+                <div class="blog-post">
+                    <h2>Understanding Phishing Attacks</h2>
+                    <p class="post-meta">Posted on January 15, 2024 by <a href="#">Admin</a></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <p>Phishing is a method used by cybercriminals to trick individuals into providing sensitive information...</p>
                     <a href="#" class="btn btn-primary">Read More</a>
-                </article>
-                <article class="mb-4">
-                    <h2 class="mb-3">Best Practices for Password Security</h2>
+                </div>
+                <div class="blog-post">
+                    <h2>Best Practices for Password Security</h2>
+                    <p class="post-meta">Posted on February 10, 2024 by <a href="#">Admin</a></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <p>Using strong, unique passwords is essential for protecting your online accounts. Here are some tips...</p>
                     <a href="#" class="btn btn-primary">Read More</a>
-                </article>
-                <article class="mb-4">
-                    <h2 class="mb-3">The Impact of Ransomware Attacks</h2>
+                </div>
+                <div class="blog-post">
+                    <h2>The Impact of Ransomware Attacks</h2>
+                    <p class="post-meta">Posted on March 05, 2024 by <a href="#">Admin</a></p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     <p>Ransomware attacks have become increasingly prevalent. Learn how they work and what you can do to protect yourself...</p>
                     <a href="#" class="btn btn-primary">Read More</a>
-                </article>
+                </div>
             </div>
             <div class="col-md-4">
                 <aside class="bg-light p-4 rounded recent-posts">
